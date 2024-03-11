@@ -1,7 +1,7 @@
 <head>
   <body>
     <script>
-      function main() {
+    
     var aantal;
 
     window.alert("Geef aantal getallen op");
@@ -11,7 +11,7 @@
 
     volgorde = window.prompt('Enter a value for volgorde');
     if (volgorde == "k naar g") {
-        var nummers = createArray(aantal);
+        var nummers = new Array(aantal);
         var teller;
 
         for (teller = 0; teller <= nummers.length - 1; teller++) {
@@ -20,7 +20,7 @@
         weergaveArray(nummers);
         sorteer2(nummers);
     } else {
-        var nummers = createArray(aantal);
+        var nummers = new Array(aantal);
         var teller;
 
         for (teller = 0; teller <= nummers.length - 1; teller++) {
